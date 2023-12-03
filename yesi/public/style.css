@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #d8a8d8, #c39bd3, #f9bbe4, #ffc0cb);
+    height: 100vh;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 15px;
+    padding: 5vh 5vw;
+    width: 50vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-filling {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.form textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #3d4852;
+    border-radius: 10px;
+    height: 20vh;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.form-filling button {
+    background: #ffc0cb;
+    color: #3d4852;
+    cursor: pointer;
+    outline: none;
+    width: 10vw;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    display: block;
+}
+
+.form-filling button:hover {
+    background: #ff9aae;
+}
+
